@@ -2,7 +2,6 @@
 
 This Python Flask application runs persistently in a Docker container managed by Docker Compose, enabling easy deployment and scalability. The Docker Compose configuration ensures the Flask app starts automatically and remains accessible on the specified port, supporting a continuous and consistent runtime environment.
 
-```markdown
 # Flask Application with Docker and Docker Compose
 
 This project demonstrates how to containerize a Flask application using Docker and Docker Compose.
@@ -13,8 +12,7 @@ This project demonstrates how to containerize a Flask application using Docker a
 - Docker Compose installed on your machine
 
 ## Project Structure
-
-```
+```bash
 .
 ├── app.py
 ├── Dockerfile
