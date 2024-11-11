@@ -120,7 +120,14 @@ This command will:
 - Set the environment variable `FLASK_ENV` to `production`.
 - Run the Flask application with the command `flask run --host=0.0.0.0`.
 
-### 6. Access the Application
+### 6. Before Access application must add ports in firewalld
+```bash
+firewall-cmd  --zone=public --add-port=5000/tcp --permanent
+firewall-cmd  --reload
+firewall-cmd  --zone=public --list-ports
+```
+
+### 7. Access the Application
 
 Once the container is running, you can access your Flask application at `http://localhost:5000`.
 
