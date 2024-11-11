@@ -10,6 +10,9 @@ This project demonstrates how to containerize a Flask application using Docker a
 
 - Docker installed on your machine
 - Docker Compose installed on your machine
+```bash
+https://docs.docker.com/engine/install/
+```
 
 ## Project Structure
 ```bash
